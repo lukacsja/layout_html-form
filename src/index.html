@@ -18,56 +18,70 @@
     autocomplete="off">
       <fieldset class="section section1">
         <legend>Personal information</legend>
-        <div class="form-field">
-          Surname:
-          <input type="text" name="surname">
+        <div class="form__field">
+          <label>
+            Surname:
+            <input type="text" name="surname">
+          </label>
         </div>
-        <div class="form-field">
-          Name:
-          <input type="text" name="name">
+        <div class="form__field">
+          <label>
+            Name:
+            <input type="text" name="name">
+          </label>
         </div>
-        <div class="form-field">
-          How old are You?
-          <input type="number"
-            name="age"
-            min="1"
-            max="100"
-            value="12"
-          >
+        <div class="form__field">
+          <label>
+            How old are You?
+            <input type="number"
+              name="age"
+              min="1"
+              max="100"
+              value="12"
+            >
+          </label>
         </div>
-        <div class="form-field">
-          Full date of birth:
-          <input type="date" name="birth-date">
+        <div class="form__field">
+          <label>
+            Full date of birth:
+            <input type="date" name="birth-date">
+          </label>
         </div>
-        <div class="form-field">
-          I accept the term of the agreement
-          <input type="checkbox" name="tos-box">
+        <div class="form__field">
+          <label>
+            I accept the term of the agreement
+            <input type="checkbox" name="tos-box">
+          </label>
         </div>
       </fieldset>
       <fieldset class="section section2">
         <legend>Registration</legend>
-        <div class="form-field">
-          E-mail:
-          <input type="email"
-            name="email-addr"
-            placeholder="email@example.com"
-            required
-          >
+        <div class="form__field">
+          <label>
+            E-mail:
+            <input type="email"
+              name="email-addr"
+              placeholder="email@example.com"
+              required
+            >
+          </label>
         </div>
-        <div class="form-field">
-          Password:
-          <input type="password"
-            name="password"
-            minlength="5"
-            maxlenght="12"
-          >
+        <div class="form__field">
+          <label>
+            Password:
+            <input type="password"
+              name="password"
+              minlength="5"
+              maxlenght="12"
+            >
+          </label>
         </div>
       </fieldset>
       <fieldset class="section section3">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field">
-          Do you love cats?
+        <div class="form__field">
           <label>
+            Do you love cats?
             <input type="radio"
               name="cats"
               value="Yes"
@@ -82,41 +96,53 @@
               No
           </label>
         </div>
-        <div class="form-field">
-          What is your favorite color?
-          <input type="color" name="color">
+        <div class="form__field">
+          <label>
+            What is your favorite color?
+            <input type="color" name="color">
+          </label>
         </div>
-        <div class="form-field">
-          What time do you go to bed?
-          <input type="time" name="time">
+        <div class="form__field">
+          <label>
+            What time do you go to bed?
+            <input type="time" name="time">
+          </label>
         </div>
-        <div class="form-field">
-          What are your favorite brand of cars?
-          <select name="car" multiple>
-            <option value="bmw">BMW</option>
-            <option value="audi">Audi</option>
-            <option value="lada">Lada</option>
-          </select>
+        <div class="form__field">
+          <label>
+            What are your favorite brand of cars?
+            <select name="car" multiple>
+              <option value="bmw">BMW</option>
+              <option value="audi">Audi</option>
+              <option value="lada">Lada</option>
+            </select>
+          </label>
         </div>
-        <div class="form-field">
-          How do you rate our work?
-          <input type="range"
-            name="rate"
-          >
+        <div class="form__field">
+          <label>
+            How do you rate our work?
+            <input type="range"
+              name="rate"
+            >
+          </label>
         </div>
       </fieldset>
       <fieldset class="section section4">
         <legend>Additional info:</legend>
-        <div class="form-field">
-          Comments:
-          <textarea name="comments"></textarea>
+        <div class="form__field">
+          <label>
+            Comments:
+            <textarea name="comments"></textarea>
+          </label>
         </div>
-        <div class="form-field">
-          Would you recommend us?
-          <select name="recommend">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
+        <div class="form__field">
+          <label>
+            Would you recommend us?
+            <select name="recommend">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
         </div>
       </fieldset>
       <button type="submit" name="submit">Submit</button>
